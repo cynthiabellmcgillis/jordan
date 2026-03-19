@@ -13,9 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Digital Curator",
-  description:
-    "A meticulous exploration into the intersections of digital permanence, algorithmic culture, and the evolving landscape of architectural monographs.",
+  title: "Jordan McGillis",
+  description: "Economics | Technology | Industrial Policy | AI",
 };
 
 export default function RootLayout({
