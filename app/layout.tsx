@@ -15,6 +15,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Jordan McGillis",
   description: "Economics | Technology | Industrial Policy | AI",
+  openGraph: {
+    title: "Jordan McGillis",
+    description: "Economics | Technology | Industrial Policy | AI",
+  },
 };
 
 export default function RootLayout({
