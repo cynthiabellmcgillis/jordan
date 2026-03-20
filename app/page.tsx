@@ -46,7 +46,7 @@ export default function Home() {
             <div className="flex flex-col h-full justify-between">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-primary mb-8 block">
-                  The Spectator / 2026
+                  The Spectator / Mar 26
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 group-hover:text-primary transition-colors">
                 How Iran could end the AI boom
