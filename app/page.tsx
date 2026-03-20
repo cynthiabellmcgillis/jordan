@@ -121,7 +121,7 @@ export default function Home() {
         <section id="publications" className="mt-24 scroll-mt-24">
           <div className="flex items-center justify-between mb-12">
             <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-outline">
-              Additional Publications
+              Selected Publications
             </h3>
             <div className="h-px flex-grow mx-8 bg-outline-variant/30"></div>
           </div>
