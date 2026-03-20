@@ -52,7 +52,7 @@ export default function Home() {
                 How Iran could end the AI boom
                 </h2>
                 <p className="text-secondary max-w-xl">
-                hile Americans anxiously watch the price of gasoline tick higher as the war in the Middle East squeezes the global oil supply, the conflict has highlighted another energy vulnerability that could prove just as costly: Taiwan’s dependency on foreign natural gas.
+                While Americans anxiously watch the price of gasoline tick higher as the war in the Middle East squeezes the global oil supply, the conflict has highlighted another energy vulnerability that could prove just as costly: Taiwan’s dependency on foreign natural gas.
                 </p>
               </div>
               <div className="mt-12 flex items-center gap-2 text-primary font-medium text-sm">
