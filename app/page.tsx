@@ -1,8 +1,8 @@
 const publications = [
   { date: "2025.09", title: "Make SoCal Fly Again", tag: "Infrastructure", href: "https://www.nationalreview.com/magazine/2025/09/make-socal-fly-again/" },
   { date: "2025.05", title: "On the Twenty-First-Century Waterfront", tag: "Labor", href: "https://www.city-journal.org/article/international-longshoremens-association-dockworkers-ports-trade-technology-unions" },
-  { date: "2025", title: "AI Can Keep Truck Drivers Awake", tag: "AI", href: "https://www.wsj.com/opinion/ai-can-keep-truck-drivers-awake-95ec67fc" },
-  { date: "2025", title: "Balancing AI Innovation with National Security", tag: "Security", href: "https://nationalinterest.org/blog/techland/balancing-ai-innovation-with-national-security" },
+  { date: "2025.06", title: "AI Can Keep Truck Drivers Awake", tag: "AI", href: "https://www.wsj.com/opinion/ai-can-keep-truck-drivers-awake-95ec67fc" },
+  { date: "2025.03", title: "Balancing AI Innovation with National Security", tag: "Security", href: "https://nationalinterest.org/blog/techland/balancing-ai-innovation-with-national-security" },
 ];
 
 const socialLinks = [
