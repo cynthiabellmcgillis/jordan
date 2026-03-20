@@ -112,7 +112,7 @@ export default function Home() {
               You can find my writing on economics, technology, and industrial policy in the <em>Washington Post</em>, the <em>Wall Street Journal</em>, <em>Bloomberg</em>, <em>Nikkei Asia</em>, CNN, and many other publications.
             </p>
             <p>
-              My research has been cited by <em>the Economist</em>, the <em>Wall Street Journal</em>, the U.S. House Ways and Means Committee, the Congressional Research Service, the U.S. Defense Department&rsquo;s <em>Journal of Indo-Pacific Affairs</em>, the U.S.&ndash;China Economic and Security Review Commission, and International Crisis Group.
+              My research has been cited by the <em>Economist</em>, the <em>Wall Street Journal</em>, the U.S. House Ways and Means Committee, the Congressional Research Service, the U.S. Defense Department&rsquo;s <em>Journal of Indo-Pacific Affairs</em>, the U.S.&ndash;China Economic and Security Review Commission, and International Crisis Group.
             </p>
           </div>
         </section>
