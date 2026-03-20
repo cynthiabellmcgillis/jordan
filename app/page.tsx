@@ -106,7 +106,7 @@ export default function Home() {
               I join Anthropic&rsquo;s policy team from the Economic Innovation Group (EIG), where I&rsquo;ve been a fellow since 2025. I&rsquo;m also a member of the Council on Foreign Relations and a winner of a 2026 Emergent Ventures award from George Mason University. My primary project for 2025&ndash;2026 has been to analyze regional technology, energy, and manufacturing developments within the U.S., compare and contrast these regional developmental strategies with East Asian and Gulf strategies, and advocate for what I call &ldquo;Industrial Policy with American Characteristics.&rdquo; This approach to global competitiveness emphasizes agglomeration effects, defense-industrial overlaps, and market mechanisms.
             </p>
             <p>
-              Before EIG, I was economics editor of the Manhattan Institute&rsquo;s <em>City Journal</em> magazine and an adjunct fellow at the Global Taiwan Institute, specializing in Taiwan&rsquo;s energy and industrial supply chains. Before that, I was deputy director of policy at the Institute for Energy Research.
+              Before EIG, I was economics editor of the Manhattan Institute&rsquo;s <em>City Journal</em>{" "}magazine and an adjunct fellow at the Global Taiwan Institute, specializing in Taiwan&rsquo;s energy and industrial supply chains. Before that, I was deputy director of policy at the Institute for Energy Research.
             </p>
             <p>
               You can find my writing on economics, technology, and industrial policy in the <em>Washington Post</em>, the <em>Wall Street Journal</em>, <em>Bloomberg</em>, <em>Nikkei Asia</em>, CNN, and many other publications.
