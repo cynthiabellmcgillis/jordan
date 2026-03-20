@@ -1,8 +1,8 @@
 const publications = [
-  { date: "2025.09", title: "Make SoCal Fly Again", tag: "Infrastructure", href: "https://www.nationalreview.com/magazine/2025/09/make-socal-fly-again/" },
-  { date: "2025.06", title: "AI Can Keep Truck Drivers Awake", tag: "AI", href: "https://www.wsj.com/opinion/ai-can-keep-truck-drivers-awake-95ec67fc" },
-  { date: "2025.05", title: "On the Twenty-First-Century Waterfront", tag: "Labor", href: "https://www.city-journal.org/article/international-longshoremens-association-dockworkers-ports-trade-technology-unions" },
-  { date: "2025.03", title: "Balancing AI Innovation with National Security", tag: "Security", href: "https://nationalinterest.org/blog/techland/balancing-ai-innovation-with-national-security" },
+  { date: "2025.09", publication: "National Review", title: "Make SoCal Fly Again", tag: "Infrastructure", href: "https://www.nationalreview.com/magazine/2025/09/make-socal-fly-again/" },
+  { date: "2025.06", publication: "Wall Street Journal", title: "AI Can Keep Truck Drivers Awake", tag: "AI", href: "https://www.wsj.com/opinion/ai-can-keep-truck-drivers-awake-95ec67fc" },
+  { date: "2025.05", publication: "City Journal", title: "On the Twenty-First-Century Waterfront", tag: "Labor", href: "https://www.city-journal.org/article/international-longshoremens-association-dockworkers-ports-trade-technology-unions" },
+  { date: "2025.03", publication: "National Interest", title: "Balancing AI Innovation with National Security", tag: "Security", href: "https://nationalinterest.org/blog/techland/balancing-ai-innovation-with-national-security" },
 ];
 
 const socialLinks = [
@@ -138,6 +138,7 @@ export default function Home() {
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                   <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-12">
                     <span className="font-mono text-[10px] text-secondary w-20">{item.date}</span>
+                    <span className="font-mono text-[10px] text-secondary w-32">{item.publication}</span>
                     <h4 className="text-lg font-bold tracking-tight text-on-surface group-hover:text-primary transition-colors">
                       {item.title}
                     </h4>
