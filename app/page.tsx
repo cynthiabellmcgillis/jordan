@@ -35,7 +35,7 @@ export default function Home() {
             Jordan McGillis
           </h1>
           <p className="text-lg text-secondary leading-relaxed">
-            I join Anthropic&rsquo;s policy team from the Economic Innovation Group (EIG), where I&rsquo;ve been a fellow since 2025. I&rsquo;m also a member of the Council on Foreign Relations and a winner of a 2026 Emergent Ventures award from George Mason University.
+            Delivering actionable analysis on compute, energy, and global policy.
           </p>
         </header>
 
