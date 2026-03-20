@@ -155,6 +155,10 @@ export default function Home() {
             ))}
           </div>
 
+          <div className="mt-12">
+            <span className="font-mono text-[10px] uppercase tracking-widest text-secondary">See more at </span>
+            <a href="https://www.jordanmcgillis.com" target="_blank" rel="noopener noreferrer" className="font-mono text-[10px] uppercase tracking-widest text-[#99462a] dark:text-[#d97757] hover:opacity-80 transition-opacity">www.jordanmcgillis.com</a>
+          </div>
 
         </section>
       </main>
