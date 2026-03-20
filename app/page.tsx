@@ -1,8 +1,8 @@
 const publications = [
-  { date: "2023.08.12", title: "The Typography of Public Space", tag: "Urbanism" },
-  { date: "2023.05.24", title: "Notes on Minimalist Interface Design", tag: "Systems" },
-  { date: "2023.02.09", title: "Cognitive Load and Editorial Clarity", tag: "Psychology" },
-  { date: "2022.11.30", title: "Semantic Structures for Personal Archives", tag: "Archive" },
+  { date: "2025.09", title: "Make SoCal Fly Again", tag: "Infrastructure", href: "https://www.nationalreview.com/magazine/2025/09/make-socal-fly-again/" },
+  { date: "2025.05", title: "On the Twenty-First-Century Waterfront", tag: "Labor", href: "https://www.city-journal.org/article/international-longshoremens-association-dockworkers-ports-trade-technology-unions" },
+  { date: "2025", title: "AI Can Keep Truck Drivers Awake", tag: "AI", href: "https://www.wsj.com/opinion/ai-can-keep-truck-drivers-awake-95ec67fc" },
+  { date: "2025", title: "Balancing AI Innovation with National Security", tag: "Security", href: "https://nationalinterest.org/blog/techland/balancing-ai-innovation-with-national-security" },
 ];
 
 const socialLinks = [
@@ -130,7 +130,9 @@ export default function Home() {
             {publications.map((item) => (
               <a
                 key={item.title}
-                href="#"
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group block py-8 border-b border-outline-variant/10 hover:bg-surface-container-low transition-colors px-4 -mx-4"
               >
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
