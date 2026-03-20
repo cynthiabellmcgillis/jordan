@@ -22,15 +22,17 @@ export default function Home() {
             Geopolitics Policy, Anthropic
           </span>
           <div className="flex gap-8 items-center">
-          {socialLinks.slice(0, 2).map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all"
-            >
-              {link.label}
-            </a>
-          ))}
+            <a href="#about" className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all">About</a>
+            <a href="#publications" className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all">Publications</a>
+            {socialLinks.slice(0, 2).map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all"
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
         </div>
       </nav>
@@ -137,7 +139,7 @@ export default function Home() {
         </section>
 
         {/* About */}
-        <section className="mt-24 mb-24 max-w-3xl">
+        <section id="about" className="mt-24 mb-24 max-w-3xl scroll-mt-24">
           <div className="flex items-center gap-8 mb-12">
             <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-outline whitespace-nowrap">
               About
@@ -161,7 +163,7 @@ export default function Home() {
         </section>
 
         {/* Publications List */}
-        <section className="mt-24">
+        <section id="publications" className="mt-24 scroll-mt-24">
           <div className="flex items-center justify-between mb-12">
             <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-outline">
               Additional Publications
