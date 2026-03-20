@@ -97,45 +97,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Critique Card */}
-          <div className="md:col-span-4 group cursor-pointer bg-surface-container-high p-8 hover:bg-surface-container-highest transition-colors duration-500">
-            <div className="flex flex-col h-full justify-between">
-              <div>
-                <span className="font-mono text-[10px] uppercase tracking-widest text-secondary mb-6 block">
-                  Critique / 2023
-                </span>
-                <h2 className="text-2xl font-bold tracking-tight mb-3">Curation as Code</h2>
-                <p className="text-sm text-secondary leading-relaxed">
-                  How algorithmic recommendation engines are redefining the role of the traditional
-                  gallery curator.
-                </p>
-              </div>
-              <div className="mt-8 flex items-center gap-2 text-on-surface opacity-40 group-hover:opacity-100 transition-opacity">
-                <span className="material-symbols-outlined">description</span>
-                <span className="text-xs font-mono uppercase tracking-tighter">12 min read</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Visual Accent Card */}
-          <div className="md:col-span-8 bg-surface-container-low overflow-hidden relative min-h-[300px]">
-            <div className="absolute inset-0 p-12 flex flex-col justify-center z-10">
-              <h3 className="text-5xl font-black tracking-tighter text-on-surface/5 select-none pointer-events-none uppercase">
-                Digital Ephemera
-              </h3>
-              <p className="mt-4 font-mono text-[10px] text-outline max-w-[200px]">
-                Capturing the impermanent nature of the modern web through structured documentation.
-              </p>
-            </div>
-            <div className="absolute right-0 top-0 w-1/2 h-full">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                alt="Detailed close-up of textured paper"
-                className="w-full h-full object-cover mix-blend-multiply opacity-20"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh1loivlU8CF7lTr26d2dl9dVyM8ONF-Ch7mYC5hBS_EDp-ahwQKB9w935V3aaYk1MYJZPt4djsPvOxuDDNQJRZLMceQtqS4td4p8LBEAoV9xSGELhQNZwYRjAS3a0aEcX9S0J4TWx3DfyIIyJyrrJWrJlgVV6UI5p9-TccTjc_1SzNrOdy1DzKbnBMW0ze2OMbvbgulNycQseXkOK07JphFzZi48GjHBcv3pkd1gChpkN6MkrgrC3fNTWohNDNsA4RaEaxTyyrWNP"
-              />
-            </div>
-          </div>
         </section>
 
         {/* About */}
