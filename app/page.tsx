@@ -22,8 +22,8 @@ export default function Home() {
             Geopolitics Policy, Anthropic
           </span>
           <div className="flex gap-8 items-center">
-            <a href="#about" className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all">About</a>
-            <a href="#publications" className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all">Publications</a>
+            <a href="#about" className="text-[#5f5f57] dark:text-[#e5e2d9] font-['Inter'] tracking-tight text-sm font-medium hover:text-[#99462a] transition-colors duration-300">About</a>
+            <a href="#publications" className="text-[#5f5f57] dark:text-[#e5e2d9] font-['Inter'] tracking-tight text-sm font-medium hover:text-[#99462a] transition-colors duration-300">Publications</a>
             {socialLinks.slice(0, 2).map((link) => (
               <a
                 key={link.label}
