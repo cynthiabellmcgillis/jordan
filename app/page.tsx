@@ -63,30 +63,26 @@ export default function Home() {
           </div>
 
           {/* Card with Image */}
-          <a href="https://www.city-journal.org/article/meta-artificial-intelligence-stem-workers-immigration" target="_blank" rel="noopener noreferrer" className="md:col-span-4 group cursor-pointer bg-surface-container-high p-8 hover:bg-surface-container-highest transition-colors duration-500 flex flex-col">
-            <div className="flex flex-col h-full justify-between">
+          <a href="https://www.city-journal.org/article/meta-artificial-intelligence-stem-workers-immigration" target="_blank" rel="noopener noreferrer" className="md:col-span-4 group cursor-pointer bg-surface-container-high relative overflow-hidden min-h-[280px] flex flex-col">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              alt="Circuit board detail"
+              className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply transition-transform duration-700 group-hover:scale-105"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyrjSIksiyJacvYJWirJvn8D9aBl92w5pOpUOhsOPNFZSmbOZ5PohDXCHtuDFWxDbn7bKyI_M2XHZwR31hn6lUBI0liOAUeBhnDr_VfzYL2gkmPp4Q2F-e9CEfWG2IbZQB6clKbWZTRVxZ_i2BUAkk6MS-_DdHEqpR5VaVCMKB1toGotHWZuoahuR25raKJ4323GzEWsLtTE-fl7jYVqcEAo-pNwIi_jCsZ1Bbuu71fKcXpDVM3zIbkdxQpucAJJmRTCdVX9C1wIb6"
+            />
+            <div className="relative z-10 p-8 bg-gradient-to-b from-surface-container-high/90 to-surface-container-high/40 h-full flex flex-col justify-between">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-secondary mb-6 block">
                   City Journal / Dec 2025
                 </span>
-                <h2 className="text-2xl font-bold tracking-tight mb-3">Skill Issue</h2>
-                <p className="text-sm text-secondary leading-relaxed">
+                <h2 className="text-2xl font-bold tracking-tight mb-3 group-hover:text-primary transition-colors">Skill Issue</h2>
+                <p className="text-xs text-secondary leading-relaxed font-medium">
                   Raising America&rsquo;s talent quotient requires a new immigration strategy.
                 </p>
               </div>
-              <div className="mt-8 flex items-center gap-2 text-primary font-medium text-sm">
+              <div className="mt-8 flex items-center gap-2 text-primary font-medium text-xs">
                 <span>Read full essay</span>
                 <span className="material-symbols-outlined text-sm">arrow_right_alt</span>
-              </div>
-              <div className="mt-4">
-                <div className="w-full h-32 overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    alt="Minimalist concrete architecture detail"
-                    className="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnEWxpzF6204W95lAxxQeETskxwDjw1pEOKROKfVrQavQTINcLcGZQyn-SPY1z0Ocf6onug9uz40K5vN5m-dPjHBA8K6WczKU6xwCQvlTGYvL2rTxp4bQQ_xnQffSfTyJXABpyUdvCBH2hJI0om4NL54bRvXnCipgMwOVLhwZr4D159GcdZdWMVBOJqtQurb34tgVVAwZjdt050-EGUksCox4TQtbNZuRpenWl9A9CWrjQny9DkVwQDvT2GznfOGonVgS10HSGI8IA"
-                  />
-                </div>
               </div>
             </div>
           </a>
