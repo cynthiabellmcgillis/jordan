@@ -49,7 +49,7 @@ export default function Home() {
                   The Spectator / Mar 26
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4 group-hover:text-primary transition-colors">
-                How Iran could end the AI boom
+                How Iran Could End the AI Boom
                 </h2>
                 <p className="text-secondary max-w-xl">
                 While Americans anxiously watch the price of gasoline tick higher as the war in the Middle East squeezes the global oil supply, the conflict has highlighted another energy vulnerability that could prove just as costly: Taiwan’s dependency on foreign natural gas.
