@@ -30,7 +30,7 @@ export default function Home() {
 
       <main className="pt-32 pb-24 px-8 max-w-7xl mx-auto">
         {/* Hero */}
-        <header className="mb-24 max-w-3xl">
+        <header className="mb-10 max-w-3xl">
           <h1 className="text-6xl md:text-7xl font-extrabold tracking-tighter text-on-surface mb-6">
             Jordan McGillis
           </h1>
