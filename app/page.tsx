@@ -74,7 +74,11 @@ export default function Home() {
                   Raising America&rsquo;s talent quotient requires a new immigration strategy.
                 </p>
               </div>
-              <div className="mt-8">
+              <div className="mt-8 flex items-center gap-2 text-primary font-medium text-sm">
+                <span>Read full essay</span>
+                <span className="material-symbols-outlined text-sm">arrow_right_alt</span>
+              </div>
+              <div className="mt-4">
                 <div className="w-full h-32 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
