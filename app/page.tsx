@@ -42,7 +42,7 @@ export default function Home() {
             Jordan McGillis
           </h1>
           <p className="text-lg text-secondary leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel commodo tellus. Cras fringilla urna nec accumsan ullamcorper. Etiam tristique mollis urna, iaculis pulvinar elit vestibulum ac. Vivamus convallis porta est eu eleifend. Aliquam facilisis sodales magna id lacinia. Suspendisse potenti. Duis ipsum velit, vulputate sed lacinia nec, semper id metus.
+            I join Anthropic&rsquo;s policy team from the Economic Innovation Group (EIG), where I&rsquo;ve been a fellow since 2025. I&rsquo;m also a member of the Council on Foreign Relations and a winner of a 2026 Emergent Ventures award from George Mason University.
           </p>
         </header>
 
@@ -133,6 +133,30 @@ export default function Home() {
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh1loivlU8CF7lTr26d2dl9dVyM8ONF-Ch7mYC5hBS_EDp-ahwQKB9w935V3aaYk1MYJZPt4djsPvOxuDDNQJRZLMceQtqS4td4p8LBEAoV9xSGELhQNZwYRjAS3a0aEcX9S0J4TWx3DfyIIyJyrrJWrJlgVV6UI5p9-TccTjc_1SzNrOdy1DzKbnBMW0ze2OMbvbgulNycQseXkOK07JphFzZi48GjHBcv3pkd1gChpkN6MkrgrC3fNTWohNDNsA4RaEaxTyyrWNP"
               />
             </div>
+          </div>
+        </section>
+
+        {/* About */}
+        <section className="mt-24 mb-24 max-w-3xl">
+          <div className="flex items-center gap-8 mb-12">
+            <h3 className="text-xs font-mono uppercase tracking-[0.2em] text-outline whitespace-nowrap">
+              About
+            </h3>
+            <div className="h-px flex-grow bg-outline-variant/30"></div>
+          </div>
+          <div className="space-y-6 text-secondary leading-relaxed">
+            <p>
+              I join Anthropic&rsquo;s policy team from the Economic Innovation Group (EIG), where I&rsquo;ve been a fellow since 2025. I&rsquo;m also a member of the Council on Foreign Relations and a winner of a 2026 Emergent Ventures award from George Mason University. My primary project for 2025&ndash;2026 has been to analyze regional technology, energy, and manufacturing developments within the U.S., compare and contrast these regional developmental strategies with East Asian and Gulf strategies, and advocate for what I call &ldquo;Industrial Policy with American Characteristics.&rdquo; This approach to global competitiveness emphasizes agglomeration effects, defense-industrial overlaps, and market mechanisms.
+            </p>
+            <p>
+              Before EIG, I was economics editor of the Manhattan Institute&rsquo;s <em>City Journal</em> magazine and an adjunct fellow at the Global Taiwan Institute, specializing in Taiwan&rsquo;s energy and industrial supply chains. Before that, I was deputy director of policy at the Institute for Energy Research.
+            </p>
+            <p>
+              You can find my writing on economics, technology, and industrial policy in the <em>Washington Post</em>, the <em>Wall Street Journal</em>, <em>Bloomberg</em>, <em>Nikkei Asia</em>, CNN, and many other publications.
+            </p>
+            <p>
+              My research has been cited by <em>the Economist</em>, the <em>Wall Street Journal</em>, the U.S. House Ways and Means Committee, the Congressional Research Service, the U.S. Defense Department&rsquo;s <em>Journal of Indo-Pacific Affairs</em>, the U.S.&ndash;China Economic and Security Review Commission, and International Crisis Group.
+            </p>
           </div>
         </section>
 
