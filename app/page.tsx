@@ -69,10 +69,9 @@ export default function Home() {
                 <span className="font-mono text-[10px] uppercase tracking-widest text-secondary mb-6 block">
                   City Journal / Dec 25
                 </span>
-                <h2 className="text-2xl font-bold tracking-tight mb-3">Brutalism &amp; Bytes</h2>
+                <h2 className="text-2xl font-bold tracking-tight mb-3">Skill Issue</h2>
                 <p className="text-sm text-secondary leading-relaxed">
-                  Parallels between mid-century architectural movements and decentralized web
-                  protocols.
+                  Raising America&rsquo;s talent quotient requires a new immigration strategy.
                 </p>
               </div>
               <div className="mt-8">
