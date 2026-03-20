@@ -63,11 +63,11 @@ export default function Home() {
           </div>
 
           {/* Card with Image */}
-          <div className="md:col-span-4 group cursor-pointer bg-surface-container-high p-8 hover:bg-surface-container-highest transition-colors duration-500">
+          <a href="https://www.city-journal.org/article/meta-artificial-intelligence-stem-workers-immigration" target="_blank" rel="noopener noreferrer" className="md:col-span-4 group cursor-pointer bg-surface-container-high p-8 hover:bg-surface-container-highest transition-colors duration-500 flex flex-col">
             <div className="flex flex-col h-full justify-between">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-widest text-secondary mb-6 block">
-                  Short Form / Oct 23
+                  City Journal / Dec 25
                 </span>
                 <h2 className="text-2xl font-bold tracking-tight mb-3">Brutalism &amp; Bytes</h2>
                 <p className="text-sm text-secondary leading-relaxed">
@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </a>
 
         </section>
 
