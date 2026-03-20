@@ -24,15 +24,6 @@ export default function Home() {
           <div className="flex gap-8 items-center">
             <a href="#about" className="text-[#5f5f57] dark:text-[#e5e2d9] font-['Inter'] tracking-tight text-sm font-medium hover:text-[#99462a] transition-colors duration-300">About</a>
             <a href="#publications" className="text-[#5f5f57] dark:text-[#e5e2d9] font-['Inter'] tracking-tight text-sm font-medium hover:text-[#99462a] transition-colors duration-300">Publications</a>
-            {socialLinks.slice(0, 2).map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] transition-all"
-              >
-                {link.label}
-              </a>
-            ))}
           </div>
         </div>
       </nav>
@@ -162,6 +153,26 @@ export default function Home() {
 
         </section>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-[#dddad0] dark:bg-[#141410]">
+        <div className="max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex gap-8">
+            {socialLinks.slice(0, 2).map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-70 hover:opacity-100 hover:text-[#99462a] dark:hover:text-[#d97757] transition-all"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
+          <span className="font-mono text-[10px] uppercase tracking-widest text-[#5f5f57] dark:text-[#e5e2d9] opacity-50">
+            Made with Claude Code
+          </span>
+        </div>
+      </footer>
 
     </>
   );
