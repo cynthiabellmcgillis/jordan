@@ -19,7 +19,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-[#fcf9ef]/80 dark:bg-[#1c1c16]/80 backdrop-blur-xl">
         <div className="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
           <span className="text-xl font-normal tracking-tight text-[#99462a] dark:text-[#d97757]">
-            Geopolitics Policy, Anthropic
+            Geopolitics at Anthropic
           </span>
           <div className="flex gap-8 items-center">
             <a href="#about" className="text-[#5f5f57] dark:text-[#e5e2d9] font-['Inter'] tracking-tight text-sm font-medium hover:text-[#99462a] transition-colors duration-300">About</a>
